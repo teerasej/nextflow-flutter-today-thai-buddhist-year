@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             
             
             Text('ใช้ DateTime.now().yearInBuddhistCalendar ค่า year เป็น', style: ThemeTextStyle.title(context)),
-            Text('${now.yearInBuddhistCalendar}', style: ThemeTextStyle.highlight(context)),
+            Text('', style: ThemeTextStyle.highlight(context)),
 
             SizedBox(height: 40,),
 
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 40,),
             
             Text('ใช้ DateFormat.formatInBuddhistCalendarThai() ได้', style: ThemeTextStyle.title(context)),
-            Text('${formatter.formatInBuddhistCalendarThai(now)}', style: ThemeTextStyle.highlight(context)),
+            Text('', style: ThemeTextStyle.highlight(context)),
           ],),
         ));
   }
