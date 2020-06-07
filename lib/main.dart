@@ -5,8 +5,8 @@ import 'package:buddhist_datetime_dateformat/buddhist_datetime_dateformat.dart';
 import 'package:nextflow_thai_date_localization/theme_text_style.dart';
 void main() {
 
-  // Intl.defaultLocale = 'th';
-  // initializeDateFormatting();
+  Intl.defaultLocale = 'th';
+  initializeDateFormatting();
 
   runApp(MyApp());
 }
